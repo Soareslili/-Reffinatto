@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import "tailwindcss";
+
+
+@theme {
+
+  --font-play: "Playfair Display", serif;
+    
+  
+   --color-background: #0b0f18;       /* 220 40% 6% */
+  --color-foreground: #ffffff;       /* 0 0% 100% */
+
+  --color-card: #0e141f;             /* 220 35% 8% */
+  --color-card-foreground: #ffffff;  /* 0 0% 100% */
+
+  --color-popover: #0e141f;          /* 220 35% 8% */
+  --color-popover-foreground: #ffffff; /* 0 0% 100% */
+
+  --color-primary: #e7b21e;          /* 42 78% 55% */
+  --color-primary-foreground: #0b0f18; /* 220 40% 6% */
+
+  --color-secondary: #181e2b;        /* 220 30% 12% */
+  --color-secondary-foreground: #ffffff; /* 0 0% 100% */
+
+  --color-muted: #2e3a52;            /* 220 20% 25% */
+  --color-muted-foreground: #cccccc; /* 0 0% 80% */
+
+  --color-accent: #e7b21e;           /* 42 78% 55% */
+  --color-accent-foreground: #0b0f18; /* 220 40% 6% */
+
+  --color-destructive: #ef4444;      /* 0 84.2% 60.2% */
+  --color-destructive-foreground: #ffffff; /* 0 0% 100% */
+
+  --color-border: #e7b21e;           /* 42 78% 55% */
+  --color-input: #20283a;            /* 220 30% 18% */
+  --color-ring: #e7b21e;             /* 42 78% 55% */
+
+  --radius: 0.5rem;
+
+  /* Premium luxury colors */
+  --color-navy-deep: #0b0f18;        /* 220 40% 6% */
+  --color-navy-darker: #0e141f;      /* 220 35% 8% */
+  --color-navy-dark: #181e2b;        /* 220 30% 12% */
+  --color-gold: #e7b21e;             /* 42 78% 55% */
+  --color-gold-light: #f2c94c;       /* 42 78% 65% */
+
+  /* Gradients */
+  --color-gradient-hero: linear-gradient(135deg, #0b0f18 0%, #111827 100%);
+  --color-gradient-gold: linear-gradient(135deg, #e7b21e 0%, #c89a10 100%);
+  --color-glow-gold: 0 0 30px rgba(231, 178, 30, 0.3);
+
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background: hsl(var(--navy-deep));
+  }
+}
+
+@layer utilities {
+  .text-gold {
+    @apply text-primary;
+  }
+  
+  .bg-navy {
+    background: hsl(var(--navy-deep));
+  }
+  
+  .bg-navy-darker {
+    background: hsl(var(--navy-darker));
+  }
+  
+  .border-gold {
+    border-color: hsl(var(--gold));
+  }
+  
+  .gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .gradient-gold {
+    background: var(--gradient-gold);
+  }
+  
+  .glow-gold {
+    box-shadow: var(--glow-gold);
+  }
+  
+  .luxury-container {
+    @apply max-w-7xl mx-auto px-6 lg:px-12;
+  }
+}
+
+
