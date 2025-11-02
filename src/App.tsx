@@ -5,6 +5,8 @@ import Collection from "./components/Collection"
 import About from "./components/About"
 import Gallery from "./components/Gallery"
 import Lifestyle from "./components/Lifestyle"
+import Testimonials from "./components/Testimonials"
+import Footer from "./components/Footer"
 
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
     <Collection />
     <Gallery />
     <Lifestyle />
+    <Testimonials />
+    <Footer />
    </>
     
       

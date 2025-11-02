@@ -5,7 +5,7 @@ import AboutImg from '../assets/About.png'
 const About = () => {
     return (
 
-        <section className="py-24 bg-black relative overflow-hidden">
+        <section id='sobre' className="py-24 bg-black relative overflow-hidden">
 
 
             <div className="luxury-container relative z-10">

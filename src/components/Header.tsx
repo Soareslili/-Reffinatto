@@ -28,23 +28,18 @@ const Header = () => {
 
                     <div className="hidden md:flex items-center gap-8 font-play ">
                         <button
-                            onClick={() => scrollToSection("treinos")}
+                            onClick={() => scrollToSection("sobre")}
                             className="text-foreground cursor-pointer hover:text-accent transition-colors"
                         >
                             Sobre
                         </button>
                         <button
-                            onClick={() => scrollToSection("sobre")}
+                            onClick={() => scrollToSection("galeria")}
                             className="text-foreground cursor-pointer hover:text-accent transition-colors"
                         >
                             Galeria
                         </button>
-                        <button
-                            onClick={() => scrollToSection("resultados")}
-                            className="text-foreground cursor-pointer hover:text-accent transition-colors"
-                        >
-                            Resultados
-                        </button>
+                        
                         <button
                             onClick={() => scrollToSection("depoimentos")}
                             className="text-foreground cursor-pointer hover:text-accent transition-colors"
@@ -86,12 +81,7 @@ const Header = () => {
                         >
                            Galeria
                         </button>
-                        <button
-                            onClick={() => scrollToSection("resultados")}
-                            className="text-foreground hover:text-accent transition-colors text-left"
-                        >
-                            Resultados
-                        </button>
+                        
                         <button
                             onClick={() => scrollToSection("depoimentos")}
                             className="text-foreground hover:text-accent transition-colors text-left"

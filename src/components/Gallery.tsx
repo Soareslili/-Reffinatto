@@ -23,10 +23,10 @@
 
 const Gallery = () => {
     return(
-        <section className="py-24 bg-navy-dark">
+        <section id='galeria' className="py-24 bg-navy-dark">
         <div className="luxury-container">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="font-serif text-4xl md:text-5xl font-bold">Featured Collection</h2>
+            <h2 className="font-play text-4xl md:text-6xl font-bold">Coleção em destaque</h2>
             <div className="h-1 w-24 bg-primary mx-auto" />
           </div>
           
