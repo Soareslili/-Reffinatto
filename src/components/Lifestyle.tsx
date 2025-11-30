@@ -23,21 +23,32 @@ const Lifestyle = () => {
 
 
                     <div className="space-y-6">
-                        <h2 className="font-serif text-4xl md:text-6xl font-bold">
+                        <h2 className="font-serif text-4xl md:text-6xl font-bold"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                        >
                             Luxo não é uma opção  <span className="text-primary">é uma declaração.</span>
                         </h2>
-                        <div className="h-1 w-24 bg-primary" />
-                        <p className="text-lg text-muted-foreground leading-relaxed">
+                        <div className="h-1 w-24 bg-primary"
+                            data-aos="fade-right"
+                            data-aos-duration="1200"
+                        />
+                        <p className="text-lg text-muted-foreground leading-relaxed"
+                          data-aos="fade-right"
+                            data-aos-duration="1600"
+                        >
 
                             Mais do que um relógio, GetTime representa um compromisso com a excelência, precisão e estilo atemporal. Usado por quem entende que o verdadeiro luxo está nos detalhes.
                         </p>
-                       
 
-                       <div className="flex justify-center lg:justify-start mt-6 ">
-                        <Button variant="hero" size="lg" className="text-lg px-12 cursor-pointer py-6 font-play h-auto">
-                          Explore Coleções
-                        </Button>
-                    </div>
+
+                        <div className="flex justify-center lg:justify-start mt-6 ">
+                            <Button variant="hero" size="lg" className="text-lg px-12 cursor-pointer py-6 font-play h-auto"
+                           
+                            >
+                                Explore Coleções
+                            </Button>
+                        </div>
                     </div>
 
 

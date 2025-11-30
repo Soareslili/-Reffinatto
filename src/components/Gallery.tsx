@@ -35,6 +35,11 @@ const Gallery = () => {
               <div 
                 key={index}
                 className="group relative bg-card rounded-lg overflow-hidden hover:glow-gold transition-all duration-300 cursor-pointer"
+              
+                data-aos="zoom-in"
+                data-aos-delay={index * 300}
+                data-aos-duration="1200"
+              
               >
                 <div className="aspect-square bg-black flex items-center justify-center p-8 overflow-hidden">
                   <img 

@@ -29,6 +29,11 @@ const Collection = () => {
             <div
               key={index}
               className="group relative bg-card border border-primary/20 rounded-lg overflow-hidden hover:border-primary transition-all duration-300 hover:glow-gold cursor-pointer"
+           
+               data-aos="fade-right"
+                data-aos-delay={index * 300}
+                data-aos-duration="1200"
+              
               style={{ animationDelay: `${index * 100}ms` }}
             >
          

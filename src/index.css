@@ -96,6 +96,19 @@
   .luxury-container {
     @apply max-w-7xl mx-auto px-6 lg:px-12;
   }
+
+  @keyframes price-bounce {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.07);
+    }
+  }
+
+  .animate-price-bounce {
+    animation: price-bounce 2s ease-in-out infinite;
+  }
 }
 
 
